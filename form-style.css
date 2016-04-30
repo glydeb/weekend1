@@ -8,6 +8,12 @@ h1 {
   margin: 30px;
 }
 
+aside {
+  float: right;
+  text-align: right;
+  position: relative;
+  top: -40px;
+}
 .person {
   border: 2px solid black;
   padding: 2px;
