@@ -13,6 +13,15 @@ h1 {
   padding: 2px;
 }
 
+.person li {
+  list-style: none;
+  padding: inherit;
+}
+
+.person button, .person ul, .person li{
+  display: inline;
+}
+
 .clicked {
   border-color: red;
 }
