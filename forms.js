@@ -36,8 +36,6 @@ $(document).ready(function () {
       values[field.name] = field.value;
     });
 
-    console.log(values);
-
     // Check salary for usable input and reject if not usable.
     // Otherwise, process it.
     var validSalary = checkSalary(values.employeeSalary);
