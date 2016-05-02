@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title>Employee Data Form</title>
+      <title>Employee Data Entry Form</title>
       <script type="text/javascript" src="jquery-1.12.3.min.js"></script>
       <script type="text/javascript" src="forms.js"></script>
       <link rel="stylesheet" href="form-style.css" />
   </head>
   <body>
-    <h1>Employee Data Form</h1>
-    <div>
-      <form id="employeeinfo">
-        <label for="employeefirstname">First Name:</label>
-        <input type="text" id="employeefirstname" name="employeefirstname" />
+    <header>
+      <h1>Employee Data Entry Form</h1>
+      <figure>
+        <img src="coffee-shop.jpg" alt="Scripter's logo"/>
+        <figcaption>Scripters, Inc.</figcaption>
+      </figure>
+      <div>
+        <form id="employeeinfo">
+          <label for="employeefirstname">First Name:</label>
+          <input type="text" id="employeefirstname" name="employeefirstname" />
 
-        <label for="employeelastname">Last Name:</label>
-        <input type="text" id="employeelastname" name="employeelastname" />
+          <label for="employeelastname">Last Name:</label>
+          <input type="text" id="employeelastname" name="employeelastname" />
 
-        <label for="employeeID">Employee ID Number:</label>
-        <input type="text" id="employeeID" name="employeeID" />
+          <label for="employeeID">Employee ID Number:</label>
+          <input type="text" id="employeeID" name="employeeID" />
 
-        <label for="employeeTitle">Title:</label>
-        <input type="text" id="employeeTitle" name="employeeTitle" />
+          <label for="employeeTitle">Title:</label>
+          <input type="text" id="employeeTitle" name="employeeTitle" />
 
-        <label for="employeeSalary">Annual Salary:</label>
-        <input type="text" id="employeeSalary" name="employeeSalary" />
+          <label for="employeeSalary">Annual Salary:</label>
+          <input type="text" id="employeeSalary" name="employeeSalary" />
 
-        <input type="submit" value="Submit Employee" />
-      </form>
-    </div>
-    <div id="container">
+          <input type="submit" value="Submit Employee" />
+        </form>
+      </div>
+    </header>
+    <main id="container">
       <h2>Entry Log</h2>
-      <aside>Total Salary of employees: $0</aside>
-    </div>
+      <aside>Total Monthly Salaries: $0</aside>
+    </main>
   </body>
 </html>
