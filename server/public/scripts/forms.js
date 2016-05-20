@@ -1,6 +1,3 @@
-// Initialize variables to track salaries and IDs
-var totalSalaries = 0;
-
 $(document).ready(function () {
 
   // Submit button event listener
