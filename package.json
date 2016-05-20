@@ -1,0 +1,25 @@
+{
+  "name": "weekend1",
+  "version": "1.0.0",
+  "description": "full-stack employee info page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glydeb/weekend1.git"
+  },
+  "author": "Glydewell Burdick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glydeb/weekend1/issues"
+  },
+  "homepage": "https://github.com/glydeb/weekend1#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "pg": "^4.5.5"
+  }
+}

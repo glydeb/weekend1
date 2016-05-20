@@ -1,0 +1,87 @@
+header {
+  margin: 20px 40px 0 20px;
+  border-bottom: 3px solid #78502B;
+}
+h1 {
+  color: #311A0A;
+  display: inline;
+}
+
+figure {
+  margin-top: 0;
+  float: right;
+  position: relative;
+}
+
+figcaption {
+  margin-top: 120px;
+  font-weight: bold;
+  font-size: 20px;
+  float:right;
+}
+
+.crop {
+  width: 120px;
+  height: 96px;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  width: 120px;
+  height: 100px;
+}
+
+form {
+  margin: 20px 0;
+  width: 730px;
+  height: 60px;
+}
+
+label, input{
+  margin: 4px 0;
+}
+
+input[type=submit] {
+  background-color: #78502B;
+  color: white;
+}
+
+#container {
+  margin: 10px 40px 10px 20px;
+}
+
+aside {
+  float: right;
+  text-align: right;
+  position: relative;
+  top: -27px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+.person {
+  border: 2px solid #78502B;
+  padding: 3px;
+  margin: 3px;
+}
+
+.person ul {
+  padding-left: 5px
+}
+.person li {
+  list-style: none;
+  padding-right: 15px
+}
+
+.person button, .person ul, .person li{
+  display: inline;
+}
+
+.person button {
+  color: white;
+  background-color: #78502B;
+  font-size: 12px;
+}

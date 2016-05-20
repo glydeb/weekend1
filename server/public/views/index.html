@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Employee Data Entry Form</title>
+      <script type="text/javascript" src="../vendor/jquery.min.js"></script>
+      <script type="text/javascript" src="../scripts/forms.js"></script>
+      <link rel="stylesheet" href="../styles/form-style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Employee Data Entry Form</h1>
+      <figure class = "crop">
+        <img src="views/coffee-shop.jpg" alt="Scripter's logo"/>
+      </figure>
+      <div>
+        <form id="employeeinfo">
+          <label for="first_name">First Name:</label>
+          <input type="text" id="first_name" name="first_name" />
+
+          <label for="last_name">Last Name:</label>
+          <input type="text" id="last_name" name="last_name" />
+
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="title" />
+
+          <label for="salary">Annual Salary:</label>
+          <input type="number" id="salary" name="salary" />
+
+          <input type="submit" value="Submit Employee" />
+        </form>
+      </div>
+    </header>
+    <main>
+      <h2>Entry Log</h2>
+      <aside>Total Monthly Salaries: $0</aside>
+      <h3>Active Employees</h3>
+      <div id="active-container">
+
+      </div>
+      <h3>Inactive Employees</h3>
+      <div id="inactive-container">
+
+      </div>
+    </main>
+  </body>
+</html>
